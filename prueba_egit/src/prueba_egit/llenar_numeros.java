@@ -12,7 +12,7 @@ public class llenar_numeros{
 	private static int[] llenar (int n){
 		int[] tabla=new int[n];
 		for(int i=0; i<n;i++)
-			tabla[i]=i*10;
+			tabla[i]=i*5;
 		return tabla;
 	}//llenar tabla
 	private static int sumar(int[] tabla){
