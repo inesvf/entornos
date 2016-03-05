@@ -6,7 +6,7 @@ public class llenar_numeros{
 		int [] tabla=new int[n];
 		tabla=llenar(n);
 		int suma=sumar(tabla);
-		System.out.println("la suma es: " + suma);
+		System.out.println("la suma es de todos los números que hay es la siguiente: " + suma);
 		
 	}
 	private static int[] llenar (int n){
